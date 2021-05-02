@@ -42,7 +42,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 - [RFID-RC522 Library](https://github.com/miguelbalboa/rfid)
 - [PHP SRC](https://google.com)
 - [NodeMcu ESP8266 Library and Board Manager](https://github.com/esp8266/Arduino#installing-with-boards-manager)
-- 
+
 # Technology Used in RFTENDANCE Using NodeMCU
 
 - Embedded C: การเขียนฮาร์ดแวร์ทั้งหมดพัฒนาด้วยภาษา C
