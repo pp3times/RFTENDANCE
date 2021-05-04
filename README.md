@@ -52,6 +52,42 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 - Javascript and CSS: เพื่อจัดรูปแบบเว็บอินเตอร์เฟสด้วยภาพเคลื่อนไหวและตรวจสอบความถูกต้องของฟอร์ม
 
 # RFTENDANCE Network Topology
- รอรูปจากเอ็ม
+ [Imgur](https://i.imgur.com/6REM7Ih.png)
  
+# RFID RC522 Module
+แล้วโมดูล RFID RC522 คืออะไร
 
+ในตอนแรกเรามาเรียนรู้เกี่ยวกับ RFID กันสักเล็กน้อย RFID เป็นรูปแบบสั้น ๆ ของการระบุความถี่วิทยุ โมดูล RFID ใช้สนามแม่เหล็กไฟฟ้าในการถ่ายโอนข้อมูลระหว่างการ์ดและเครื่องอ่าน แท็ก RFID ที่แตกต่างกันจะติดอยู่กับวัตถุเช่นพวงกุญแจการ์ด ฯลฯ และเมื่อใดก็ตามที่เราวางวัตถุนั้นไว้หน้าเครื่องอ่าน RFID เครื่องอ่านจะอ่านแท็กนั้น ประโยชน์ต่อไปของ RFID คือไม่จำเป็นต้องตรวจจับเป็นเส้นตรง ซึ่งแตกต่างจากบาร์โค้ดใน RFID ไม่มีข้อ จำกัด ดังกล่าว ดังนั้นนี่คือคุณสมบัติบางอย่างของ RFID RC522.
+
+รายละเอียด
+
+– ชื่อโมดูล: MF522-ED
+– กระแสขณะทำงาน：13—26mA/ DC 3.3V
+– กระแสไฟสแตนด์บาย：10-13mA/DC 3.3V
+– กระแสไฟนอน：<80uA
+– กระแสสูงสุด：<30mA
+– ความถี่ในการทำงาน：13.56MHz
+– ระยะการอ่านการ์ด：0～60mm（mifare1 card）
+– โปรโตคอล：SPI
+– ความเร็วในการสื่อสารข้อมูล：Maximum 10Mbit/s
+– รองรับประเภทการ์ด：mifare1 S50、mifare1 S70、Mifare UltraLight、mifare Pro、 Mifare Desfire
+– Dimension：40mm×60mm
+– อุณหภูมิในการทำงาน：-20—80 degree
+– อุณหภูมิในการจัดเก็บ：-40—85 degree
+– ความชื้น：relevant humidity 5%—95%
+– Max SPI speed: 10Mbit/s
+
+ข้อมูลจำเพาะและรายละเอียด
+
+1. 3.3V +3.3V Power Supply
+2. RST Reset
+3. GND Ground Pin
+4. IRO Not Connected
+5. MISO Serial Communication
+6. MOSI Serial Communication
+7. SCK TX/RX with ESP8266
+8. SDA TX/RX with ESP8266
+
+รูปภาพประกอบ
+ 
+ [Imgur](https://i.imgur.com/KOUgkXx.png)
