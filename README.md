@@ -90,4 +90,4 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 
 รูปภาพประกอบ
  
- [Imgur](https://i.imgur.com/KOUgkXx.png)
+ [Imgur](https://imgur.com/KOUgkXx.png)
