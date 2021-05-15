@@ -90,5 +90,5 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 
 รูปภาพประกอบ
  
- [Imgur](https://imgur.com/OFCF196.png)
- [Imgur](https://imgur.com/f815NnX)
+ [![OFCF196.png](https://i.postimg.cc/0jtw7Krj/OFCF196.png)](https://postimg.cc/sGhxrXYC)
+ [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
