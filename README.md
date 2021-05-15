@@ -52,7 +52,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 - Javascript and CSS: เพื่อจัดรูปแบบเว็บอินเตอร์เฟสด้วยภาพเคลื่อนไหวและตรวจสอบความถูกต้องของฟอร์ม
 
 # RFTENDANCE Network Topology
- [Imgur](https://i.imgur.com/6REM7Ih.png)
+ [![180160271-1612755128928628-8954132117535727996-n.png](https://i.postimg.cc/tJzzwgJG/180160271-1612755128928628-8954132117535727996-n.png)](https://postimg.cc/WqhrJT05)
  
 # RFID RC522 Module
 แล้วโมดูล RFID RC522 คืออะไร
