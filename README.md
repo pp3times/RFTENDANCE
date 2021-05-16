@@ -94,11 +94,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
 
 ## Contributor
-<b>IT KMITL#18</b> <br />
- 1.Mr.  Thanawat  Jantawong              63070076 <br />
- 2.Mr.  Pisitchai Rueangwatanaphong      63070121 <br />
- 3.Mr.  Suphachai Chuensuksri            63070169 <br />
- 4.Mr.  Apichet   Komwatcharapong        63070183 <br />
+<b>© 2021 Faculty of Information technology @King mongkut's institute of technology ladkrabang</b> <br />
 
  
 <center><table>
@@ -115,10 +111,10 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
   <th><p align="center">Apichet   Komwatcharapong</p></th>
  </tr>
  <tr>
-  <th><p align="center">63070092</p></th>
-  <th><p align="center">63070126</p></th>
-  <th><p align="center">63070135</p></th>
-  <th><p align="center">63070174</p></th>
+  <th><p align="center">63070076</p></th>
+  <th><p align="center">63070121</p></th>
+  <th><p align="center">63070169</p></th>
+  <th><p align="center">63070183</p></th>
  </table></center>
  
 <br />
