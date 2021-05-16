@@ -92,3 +92,33 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  
  [![OFCF196.png](https://i.postimg.cc/0jtw7Krj/OFCF196.png)](https://postimg.cc/sGhxrXYC)
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
+
+## Contributor
+<b>IT KMITL#18</b> <br />
+ 1.Mr.  Thanawat  Jantawong              63070076 <br />
+ 2.Mr.  Pisitchai Rueangwatanaphong      63070121 <br />
+ 3.Mr.  Suphachai Chuensuksri            63070169 <br />
+ 4.Mr.  Apichet   Komwatcharapong        63070183 <br />
+
+ 
+<center><table>
+ <tr>
+  <th><img src="https://media.discordapp.net/attachments/793282060478447636/843429531565293578/117890754_3155423994543005_6112069566971803738_n.png?width=531&height=531" height="150" width="150"></th>
+  <th><img src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.6435-9/135558998_3528759434016224_5685608112693758907_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=pAPSCvEeY54AX_rkW_7&_nc_ht=scontent.fbkk8-3.fna&oh=30befdb15dfa7bd8b07e8884e6852f0f&oe=60C78B5F" height="150" width="150"></th>
+  <th><img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.6435-9/67589688_2435564026721008_7526426871907483648_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=174925&_nc_ohc=av78ZhSRZc0AX_L03ui&_nc_ht=scontent.fbkk12-1.fna&oh=e38986458b4f4190fb9bf14a3d8795b4&oe=60C4FCDF" height="150" width="150"></th>
+  <th><img src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t35.18174-12/1071965_271392409670165_765629984_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=KP-2AQlPxmAAX-s6Yy_&_nc_ht=scontent.fbkk12-3.fna&oh=9c9b8be7412a014e413de3359459bb28&oe=60A2583F" height="150" width="150"></th>
+ </tr>
+ <tr>
+  <th><p align="center">Thanawat  Jantawong</p></th> 
+  <th><p align="center">Pisitchai Rueangwatanaphong</p></th>
+  <th><p align="center">Suphachai Chuensuksri</p></th>
+  <th><p align="center">Apichet   Komwatcharapong</p></th>
+ </tr>
+ <tr>
+  <th><p align="center">63070092</p></th>
+  <th><p align="center">63070126</p></th>
+  <th><p align="center">63070135</p></th>
+  <th><p align="center">63070174</p></th>
+ </table></center>
+ 
+<br />
