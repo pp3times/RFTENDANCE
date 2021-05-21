@@ -94,9 +94,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
  
 ## Code Explaining
-   เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogn ของadminเข้ามาไหม
- ถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีก
- ส่วนของ 
+   เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogn ของadminเข้ามาไหมถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีกส่วนของ 
         [![Screenshot-2021-05-22-at-01-40-10.png](https://i.postimg.cc/TwdLFc6V/Screenshot-2021-05-22-at-01-40-10.png)](https://postimg.cc/67PpGnTq)
         สมาชิก -> แสดงรายชื่อสมาชิกที่มีการเชื่อมกับ RFID
         [![c.png](https://i.postimg.cc/ZKStSsgz/c.png)](https://postimg.cc/w30b52gw)
