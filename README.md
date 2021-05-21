@@ -94,6 +94,15 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
  
 ## Code Explaining
+   [![1.png](https://i.postimg.cc/y85Cw6Cv/1.png)](https://postimg.cc/5XwrzV0C)<br />
+   ประกาศตัวแปร<br />
+   [![2.png](https://i.postimg.cc/VNMppjRk/2.png)](https://postimg.cc/cKxF8t2p)<br />
+   ส่งข้อมูลต่างๆ<br />
+   [![3.png](https://i.postimg.cc/1XWjwM9J/3.png)](https://postimg.cc/0KwnqYKw)<br />
+   ส่งข้อมูลของ RFID<br />
+   [![4.png](https://i.postimg.cc/Wb3KTRnK/4.png)](https://postimg.cc/xqwg34By)<br />
+   checkการเชื่อมต่อ wifi
+
    เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogn ของadminเข้ามาไหมถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีกส่วนของ <br />
 [![Screenshot-2021-05-22-at-01-40-10.png](https://i.postimg.cc/TwdLFc6V/Screenshot-2021-05-22-at-01-40-10.png)](https://postimg.cc/67PpGnTq)<br />
 สมาชิก -> แสดงรายชื่อสมาชิกที่มีการเชื่อมกับ RFID<br />
