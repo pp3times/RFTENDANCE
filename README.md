@@ -92,7 +92,16 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  
  [![OFCF196.png](https://i.postimg.cc/0jtw7Krj/OFCF196.png)](https://postimg.cc/sGhxrXYC)
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
-
+ 
+## Code Explaining
+   เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogn ของadminเข้ามาไหม
+ ถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีก
+ ส่วนของ สมาชิก -> แสดงรายชื่อสมาชิกที่มีการเชื่อมกับ RFID
+        จัดการสมาชิก -> สามารถทำ เพิ่ม/ลบ/แก้ไข ข้อมูลสมาชิก
+        รายการเช็คชื่อ -> แสดงเวลา เข้า/ออก ของรายชื่อสมาชิก และ สามารถ export รายชื่อ ออกมาเก็บไว้ได้
+        จัดการห้องเรียน -> สามารถทำ เพิ่ม/ลบ/แก้ไข ห้องเรียน และ สามารถตั้ง mode ให้สามารถ ลงทะเบียนว่านักเรียนอยู่ในห้องนี้ หรือ mode เช็คชื่อ
+        
+        
 ## Contributor
 <b>© 2021 Faculty of Information technology @King mongkut's institute of technology ladkrabang</b> <br />
 
