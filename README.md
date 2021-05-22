@@ -19,6 +19,8 @@
     <a href="https://github.com/pp3times/RFTENDANCE/issues">Report Bug</a>
     ·
     <a href="https://github.com/pp3times/RFTENDANCE/issues">Request Feature</a>
+    ·
+    <a href="https://www.youtube.com/watch?v=Hq5ujsaQr4E">Video</a>
   </p>
 </p>
 
