@@ -103,21 +103,21 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 
 รายละเอียด
 
-– ชื่อโมดูล: MF522-ED
-– กระแสขณะทำงาน：13—26mA/ DC 3.3V
-– กระแสไฟสแตนด์บาย：10-13mA/DC 3.3V
-– กระแสไฟนอน：<80uA
-– กระแสสูงสุด：<30mA
-– ความถี่ในการทำงาน：13.56MHz
-– ระยะการอ่านการ์ด：0～60mm（mifare1 card）
-– โปรโตคอล：SPI
-– ความเร็วในการสื่อสารข้อมูล：Maximum 10Mbit/s
-– รองรับประเภทการ์ด：mifare1 S50、mifare1 S70、Mifare UltraLight、mifare Pro、 Mifare Desfire
-– Dimension：40mm×60mm
-– อุณหภูมิในการทำงาน：-20—80 degree
-– อุณหภูมิในการจัดเก็บ：-40—85 degree
-– ความชื้น：relevant humidity 5%—95%
-– Max SPI speed: 10Mbit/s
+– ชื่อโมดูล: MF522-ED<br />
+– กระแสขณะทำงาน：13—26mA/ DC 3.3V<br />
+– กระแสไฟสแตนด์บาย：10-13mA/DC 3.3V<br />
+– กระแสไฟนอน：<80uA<br />
+– กระแสสูงสุด：<30mA<br />
+– ความถี่ในการทำงาน：13.56MHz<br />
+– ระยะการอ่านการ์ด：0～60mm（mifare1 card）<br />
+– โปรโตคอล：SPI<br />
+– ความเร็วในการสื่อสารข้อมูล：Maximum 10Mbit/s<br />
+– รองรับประเภทการ์ด：mifare1 S50、mifare1 S70、Mifare UltraLight、mifare Pro、 Mifare Desfire<br />
+– Dimension：40mm×60mm<br />
+– อุณหภูมิในการทำงาน：-20—80 degree<br />
+– อุณหภูมิในการจัดเก็บ：-40—85 degree<br />
+– ความชื้น：relevant humidity 5%—95%<br />
+– Max SPI speed: 10Mbit/s<br />
 
 ข้อมูลจำเพาะและรายละเอียด
 
@@ -132,7 +132,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 
 รูปภาพประกอบ
  
- [![OFCF196.png](https://i.postimg.cc/0jtw7Krj/OFCF196.png)](https://postimg.cc/sGhxrXYC)
+ [![OFCF196.png](https://i.postimg.cc/0jtw7Krj/OFCF196.png)](https://postimg.cc/sGhxrXYC)<br />
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
  
 ## Code Explaining
