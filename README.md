@@ -1,6 +1,31 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/pp3times/RFTENDANCE">
+    <img src="image/rfid.png" alt="Logo" width="80" height="80">
+  </a>
 
-# RFTENDANCE
-RFID-ATTENDANCE
+  <h3 align="center">RFTENDANCE</h3>
+
+  <p align="center">
+    RFID-ATTENDANCE
+    <br />
+    <a href="https://rftendance.codingtime.dev"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://codingtime.dev">View Client</a>
+    ·
+    <a href="https://github.com/pp3times/RFTENDANCE/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/pp3times/RFTENDANCE/issues">Request Feature</a>
+  </p>
+</p>
+
 
 # Overview:
 
