@@ -199,20 +199,20 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
   void SendCardID( String Card_uid ){
   Serial.println("Sending the Card ID");
   if(WiFi.isConnected()){
-    HTTPClient http;    //Declare object of class HTTPClient
+    HTTPClient http; 
     //GET Data
-    getData = "?card_uid=" + String(Card_uid) + "&device_token=" + String(device_token); // Add the Card ID to the GET array in order to send it
+    getData = "?card_uid=" + String(Card_uid) + "&device_token=" + String(device_token);
     //GET methode
     Link = URL + getData;
-    http.begin(Link); //initiate HTTP request   //Specify content-type header
+    http.begin(Link);
     
-    int httpCode = http.GET();   //Send the request
-    String payload = http.getString();    //Get the response payload
+    int httpCode = http.GET();
+    String payload = http.getString();
 
-//    Serial.println(Link);   //Print HTTP return code
-    Serial.println(httpCode);   //Print HTTP return code
-    Serial.println(Card_uid);     //Print Card ID
-    Serial.println(payload);    //Print request response payload
+//    Serial.println(Link);
+    Serial.println(httpCode);
+    Serial.println(Card_uid);
+    Serial.println(payload);
 
     if (httpCode == 200) {
       if (payload.substring(0, 5) == "login") {
@@ -240,7 +240,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 15.ฟังก์ชั่นการเชื่อมต่อ WiFi
 ```c++
 void connectToWiFi(){
-    WiFi.mode(WIFI_OFF);        //Prevents reconnection issue (taking too long to connect)
+    WiFi.mode(WIFI_OFF);
     delay(1000);
     WiFi.mode(WIFI_STA);
     Serial.print("Connecting to ");
@@ -255,7 +255,7 @@ void connectToWiFi(){
     Serial.println("Connected");
   
     Serial.print("IP address: ");
-    Serial.println(WiFi.localIP());  //IP address assigned to your ESP
+    Serial.println(WiFi.localIP());
     
     delay(1000);
 }
