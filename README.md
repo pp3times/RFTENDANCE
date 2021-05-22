@@ -29,22 +29,12 @@
     <li>
       <a href="#overview">Overview</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">Features</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#HardwareComponentsRequired">Hardware Components Required</a></li>
+    <li><a href="#SoftwareRequired">SoftwareRequired</a></li>
+    <li><a href="#Contributor">Contributor</a></li>
   </ol>
 </details>
 
@@ -55,7 +45,7 @@ RFTENDANCE ได้รับการพัฒนาโดยใช้ PHP, CSS
 
 RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟอร์ม IoT เราได้ใช้ NodeMCU ESP8266 development board กับ MF-RC522 Module เพื่อส่งการ์ด UID ไปยัง PHP Web app และจัดเก็บข้อมูลลงในฐานข้อมูลของเว็บไซต์ โดยพื้นฐานแล้วผู้ดูแลระบบมีบทบาทสำคัญในการจัดการระบบนี้
 
-# Features:
+## Features:
  **Functionality Performed by users**
 ตอนนี้พูดถึงคุณสมบัติของ RFTENDANCE ที่ใช้ RFID โดยใช้ NodeMCU โฮมเพจจะแสดงหน้าเข้าสู่ระบบของผู้ดูแลระบบ และจะเรียกดูและจัดการได้ก็ต่อเมื่อเข้าสู่ระบบเท่านั้น ดังนั้นระบบจึงปลอดภัย โดยพื้นฐานแล้วการออกแบบโครงการระบบการเข้าร่วม RFID นั้นค่อนข้างง่าย ดังนั้นผู้ใช้จะไม่พบปัญหาใด ๆ ในขณะที่สแกนใช้งานนั้น ผู้ใช้ต้องสแกนบัตรหรือพวงกุญแจเพื่อรักษาการเข้าใช้งานซึ่งรวมเวลาเข้าใช้งานด้วย
 
@@ -77,20 +67,20 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
 นอกจากนี้ยังมีฟังก์ชั่นเพิ่มเติมในการกรองบันทึกตาม ผู้ใช้, วันที่, เวลามาถึงเวลาออก และกรองตามส่วนต่างๆเป็นต้น
 และยังสามารถส่งออกข้อมูลเหล่านั้นไปยัง excel ได้อีกด้วย
 
-# Hardware Components Required:
+## HardwareComponentsRequired:
 - NodeMCU
 - RFID Module
 - Breadboard
 - สายไฟ
 
-# Software Required
+## SoftwareRequired
 - [Arduino IDE](https://www.arduino.cc/en/main/software)
 - [XAMPP server](https://www.apachefriends.org/download.html)
 - [RFID-RC522 Library](https://github.com/miguelbalboa/rfid)
 - [PHP SRC](https://google.com)
 - [NodeMcu ESP8266 Library and Board Manager](https://github.com/esp8266/Arduino#installing-with-boards-manager)
 
-# Technology Used in RFTENDANCE Using NodeMCU
+## Technology Used in RFTENDANCE Using NodeMCU
 
 - Embedded C: การเขียนฮาร์ดแวร์ทั้งหมดพัฒนาด้วยภาษา C
 - PHP: ลอจิกและอินเทอร์เฟซเว็บทั้งหมดเขียนด้วยภาษา PHP
