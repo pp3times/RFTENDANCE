@@ -34,6 +34,7 @@
     </li>
     <li><a href="#HardwareComponentsRequired">Hardware Components Required</a></li>
     <li><a href="#SoftwareRequired">SoftwareRequired</a></li>
+    <li><a href="#Usage">Usage</a></li>
     <li><a href="#Contributor">Contributor</a></li>
   </ol>
 </details>
@@ -260,17 +261,21 @@ void connectToWiFi(){
     delay(1000);
 }
 ```
-
+## Usage
    เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogin ของadminเข้ามาไหมถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีกส่วนของ <br />
-[![Screenshot-2021-05-22-at-01-40-10.png](https://i.postimg.cc/TwdLFc6V/Screenshot-2021-05-22-at-01-40-10.png)](https://postimg.cc/67PpGnTq)<br />
-สมาชิก -> แสดงรายชื่อสมาชิกที่มีการเชื่อมกับ RFID<br />
+[![Screenshot-2021-05-22-at-01-40-10.png](https://i.postimg.cc/TwdLFc6V/Screenshot-2021-05-22-at-01-40-10.png)](https://postimg.cc/67PpGnTq)<br /><br />
+
+(`สมาชิก`) -> แสดงรายชื่อสมาชิกที่มีการเชื่อมกับ RFID<br /><br />
 [![c.png](https://i.postimg.cc/ZKStSsgz/c.png)](https://postimg.cc/w30b52gw)<br />
-จัดการสมาชิก -> สามารถทำ เพิ่ม/ลบ/แก้ไข ข้อมูลสมาชิก<br />
-[![d.png](https://i.postimg.cc/PrryYmv8/d.png)](https://postimg.cc/23MnfLwz)
+
+(`จัดการสมาชิก`) -> สามารถทำ เพิ่ม/ลบ/แก้ไข ข้อมูลสมาชิก<br /><br />
+[![d.png](https://i.postimg.cc/PrryYmv8/d.png)](https://postimg.cc/23MnfLwz)<br />
 [![e.png](https://i.postimg.cc/mkZY3skG/e.png)](https://postimg.cc/qhY60W2m)<br />
-รายการเช็คชื่อ -> แสดงเวลา เข้า/ออก ของรายชื่อสมาชิก และ สามารถ export รายชื่อ ออกมาเก็บไว้ได้<br />
+
+(`รายการเช็คชื่อ`) -> แสดงเวลา เข้า/ออก ของรายชื่อสมาชิก และ สามารถ export รายชื่อ ออกมาเก็บไว้ได้<br /><br />
 [![a.png](https://i.postimg.cc/TYgdjD8f/a.png)](https://postimg.cc/qzBH4gM5)<br />
-จัดการห้องเรียน -> สามารถทำ เพิ่ม/ลบ/แก้ไข ห้องเรียน และ สามารถตั้ง mode ให้สามารถ ลงทะเบียนว่านักเรียนอยู่ในห้องนี้ หรือ mode เช็คชื่อ
+
+(`จัดการห้องเรียน`) -> สามารถทำ เพิ่ม/ลบ/แก้ไข ห้องเรียน และ สามารถตั้ง mode ให้สามารถ ลงทะเบียนว่านักเรียนอยู่ในห้องนี้ หรือ mode เช็คชื่อ<br />
         
         
 ## Contributor
