@@ -1,3 +1,4 @@
+
 # RFTENDANCE
 RFID-ATTENDANCE
 
@@ -94,14 +95,131 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
  [![f815-Nn-X-Imgur.png](https://i.postimg.cc/sx2BffKr/f815-Nn-X-Imgur.png)](https://postimg.cc/dkzQ4YzH)
  
 ## Code Explaining
-   [![1.png](https://i.postimg.cc/y85Cw6Cv/1.png)](https://postimg.cc/5XwrzV0C)<br />
-   ประกาศตัวแปร<br />
-   [![2.png](https://i.postimg.cc/VNMppjRk/2.png)](https://postimg.cc/cKxF8t2p)<br />
-   ส่งข้อมูลต่างๆ<br />
-   [![3.png](https://i.postimg.cc/1XWjwM9J/3.png)](https://postimg.cc/0KwnqYKw)<br />
-   ส่งข้อมูลของ RFID<br />
-   [![4.png](https://i.postimg.cc/Wb3KTRnK/4.png)](https://postimg.cc/xqwg34By)<br />
-   checkการเชื่อมต่อ wifi
+1.include RFID Library
+```C++
+  #include <SPI.h>
+  #include <MFRC522.h>
+  ```
+2.include NodeMCU ESP8266 Library
+```C++
+  #include <ESP8266WiFi.h>
+  #include <ESP8266HTTPClient.h>
+  ```
+3.ประกาศ Pin ของ RFID MF-RC522
+```C++
+  #define SS_PIN D2
+  #define RST_PIN D1
+  ```
+4.เรียกใช้และประกาศ
+```C++
+  MFR522 mfrc522(SS_PIN, RST_PIN);
+  ```
+5.ตั้งค่าข้อมูล Wifi
+```C++
+  const char *ssid= "Poom";
+  const char *password = "3times";
+  ```
+6.ใส่เลข Token ที่ได้จากหน้าเว็บ
+```C++
+  const char* device_token  = "2c4f3c61aa79d533";
+  ```
+7.ใส่ url ที่ลิงค์ไปที่ path getdata.php
+```C++
+  String URL = "http://192.168.1.8/rfidattendance/getdata.php";
+  ```
+8.เรียกใช้ SPI บัสและการ์ด MFRC522
+```C++
+  SPI.begin(); 
+  mfrc522.PCD_Init();
+  ```
+9.เช็คว่าเชื่อมต่อ Wifi หรือไม่
+```C++
+  if(!WiFi.isConnected())
+  ```
+10.เชื่อมต่อ Wifi ใหม่ในกรณีที่เชื่อมต่อไม่ผ่านหรือหลุดการเชื่อมต่อ
+```C++
+  connectToWiFi();
+  ```
+11.ค้นหาบัตรใหม่
+```C++
+  if ( ! mfrc522.PICC_IsNewCardPresent()) {
+  ```
+12.ถ้าไม่มีการ์ดให้เริ่ม loop ใหม่
+```C++
+  if ( ! mfrc522.PICC_IsNewCardPresent()) {
+    return;
+  ```
+13.เลือกบัตรหนึ่งใบ ถ้า อ่าน card serial (0) จะส่งกลับค่า 1 โดยโครงสร้างของ UID จะมี ID ของบัตรให้อ่าน
+```C++
+  if ( ! mfrc522.PICC_ReadCardSerial()) {
+    return;
+  ```
+14.ส่ง UID ของบัตรขึ้นเว็บไซต์
+```C++
+  void SendCardID( String Card_uid ){
+  Serial.println("Sending the Card ID");
+  if(WiFi.isConnected()){
+    HTTPClient http;    //Declare object of class HTTPClient
+    //GET Data
+    getData = "?card_uid=" + String(Card_uid) + "&device_token=" + String(device_token); // Add the Card ID to the GET array in order to send it
+    //GET methode
+    Link = URL + getData;
+    http.begin(Link); //initiate HTTP request   //Specify content-type header
+    
+    int httpCode = http.GET();   //Send the request
+    String payload = http.getString();    //Get the response payload
+
+//    Serial.println(Link);   //Print HTTP return code
+    Serial.println(httpCode);   //Print HTTP return code
+    Serial.println(Card_uid);     //Print Card ID
+    Serial.println(payload);    //Print request response payload
+
+    if (httpCode == 200) {
+      if (payload.substring(0, 5) == "login") {
+        String user_name = payload.substring(5);
+    //  Serial.println(user_name);
+
+      }
+      else if (payload.substring(0, 6) == "logout") {
+        String user_name = payload.substring(6);
+    //  Serial.println(user_name);
+        
+      }
+      else if (payload == "succesful") {
+
+      }
+      else if (payload == "available") {
+
+      }
+      delay(100);
+      http.end();  //Close connection
+    }
+  }
+}
+  ```
+15.ฟังก์ชั่นการเชื่อมต่อ WiFi
+```c++
+void connectToWiFi(){
+    WiFi.mode(WIFI_OFF);        //Prevents reconnection issue (taking too long to connect)
+    delay(1000);
+    WiFi.mode(WIFI_STA);
+    Serial.print("Connecting to ");
+    Serial.println(ssid);
+    WiFi.begin(ssid, password);
+    
+    while (WiFi.status() != WL_CONNECTED) {
+      delay(500);
+      Serial.print(".");
+    }
+    Serial.println("");
+    Serial.println("Connected");
+  
+    Serial.print("IP address: ");
+    Serial.println(WiFi.localIP());  //IP address assigned to your ESP
+    
+    delay(1000);
+}
+```
 
    เมื่อเข้ามาสู่หน้าเว็บ code จะมีการเช็คว่ามีการlogin ของadminเข้ามาไหมถ้าไม่มีจะไม่สามารถเข้าดูในส่วนอื่นๆได้ และจะมีส่วนหลักๆอยู่ 4 ส่วน ในแต่ละส่วนจะมีการทำงานย่อยอีกส่วนของ <br />
 [![Screenshot-2021-05-22-at-01-40-10.png](https://i.postimg.cc/TwdLFc6V/Screenshot-2021-05-22-at-01-40-10.png)](https://postimg.cc/67PpGnTq)<br />
