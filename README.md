@@ -23,7 +23,32 @@
 </p>
 
 
-# Overview:
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+## Overview:
 
 RFTENDANCE ได้รับการพัฒนาโดยใช้ PHP, CSS และ Javascript ระบบเช็ค RFID ที่ใช้ NodeMCU เป็นการทำงานที่ทันสมัย จึงเป็นโครงการที่น่าสนใจมาก อาจมีประโยชน์ในสถานที่ต่างๆเช่นโรงเรียนวิทยาลัยอุตสาหกรรมและองค์กรเอกชนในการลงทะเบียนการเข้าร่วมของนักเรียนครูพนักงาน ฯลฯ เพื่อจัดตารางชั่วโมงการทำงานรายเดือน / รายวันโดยอัตโนมัติ เมื่อบุคคลที่มีบัตร RFID ที่ถูกต้องรูดแท็ก RFID ของคนๆนั้นเวลาที่มาถึงก็จะถูกเก็บไว้ในบันทึกของระบบ โดยปกติแล้วเมื่อบุคคลคนเดียวกันสแกน RFID อีกครั้งระบบจะบันทึกเป็นเวลาออกจากสถานที่นั้นๆ
 
