@@ -124,7 +124,7 @@ RFTENDANCE ได้รับการพัฒนาด้วยแพลตฟ
   <th><img src="https://media.discordapp.net/attachments/793282060478447636/843429531565293578/117890754_3155423994543005_6112069566971803738_n.png?width=531&height=531" height="150" width="150"></th>
   <th><img src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.6435-9/135558998_3528759434016224_5685608112693758907_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=pAPSCvEeY54AX_rkW_7&_nc_ht=scontent.fbkk8-3.fna&oh=30befdb15dfa7bd8b07e8884e6852f0f&oe=60C78B5F" height="150" width="150"></th>
   <th><img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.6435-9/67589688_2435564026721008_7526426871907483648_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=174925&_nc_ohc=av78ZhSRZc0AX_L03ui&_nc_ht=scontent.fbkk12-1.fna&oh=e38986458b4f4190fb9bf14a3d8795b4&oe=60C4FCDF" height="150" width="150"></th>
-  <th><img src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t35.18174-12/1071965_271392409670165_765629984_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=KP-2AQlPxmAAX-s6Yy_&_nc_ht=scontent.fbkk12-3.fna&oh=9c9b8be7412a014e413de3359459bb28&oe=60A2583F" height="150" width="150"></th>
+  <th><img src="https://scontent.fbkk4-4.fna.fbcdn.net/v/t1.6435-9/160321548_1804288169749837_8076688632473229657_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeGWBm2OhC5kzlIneW7xM6ybI8gAEHGXG44jyAAQcZcbjkH6d-WLCu9VKON0cxQf-pR3NFKPV55dmlmfU4l4cyvY&_nc_ohc=hniLf1ILy6AAX_zPDuV&_nc_ht=scontent.fbkk4-4.fna&oh=96f9a5dc36de9ad62809aa3d0268e2ef&oe=60CCA492" height="150" width="150"></th>
  </tr>
  <tr>
   <th><p align="center">Thanawat  Jantawong</p></th> 
