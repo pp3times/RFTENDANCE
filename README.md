@@ -14,7 +14,7 @@
     <a href="https://rftendance.codingtime.dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://codingtime.dev" >View Client</a>
+    <a href="https://rfid-project.codingtime.dev" >View Client</a>
     ·
     <a href="https://github.com/pp3times/RFTENDANCE/issues" >Report Bug</a>
     ·
