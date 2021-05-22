@@ -14,13 +14,13 @@
     <a href="https://rftendance.codingtime.dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://codingtime.dev"  target="_blank">View Client</a>
+    <a href="https://codingtime.dev" >View Client</a>
     ·
     <a href="https://github.com/pp3times/RFTENDANCE/issues" >Report Bug</a>
     ·
     <a href="https://github.com/pp3times/RFTENDANCE/issues" >Request Feature</a>
     ·
-    <a href="https://www.youtube.com/watch?v=Hq5ujsaQr4E"  target="_blank">Video</a>
+    <a href="https://www.youtube.com/watch?v=Hq5ujsaQr4E" >Video</a>
   </p>
 </p>
 
@@ -42,9 +42,12 @@
 </details>
 
 ## About the Project:
-  <a href="https://youtu.be/Hq5ujsaQr4E"  target="_blank">Explantion video</a>
-  <a href=" https://cdn.discordapp.com/attachments/793282060478447636/845511264486424576/poster_compro_compressed.pdf"  target="_blank">Poster</a>
-   <a href="https://codingtime.dev"  target="_blank">Web page</a>
+  <a href="https://youtu.be/Hq5ujsaQr4E" >Explantion video</a>
+  <br />
+  <a href="https://cdn.discordapp.com/attachments/793282060478447636/845511264486424576/poster_compro_compressed.pdf" >Poster</a>
+  <br />
+  <a href="https://codingtime.dev" >Web page</a>
+  <br />
   <img src="image/RFID-Card.png" alt="Logo">
   
 ## Overview:
